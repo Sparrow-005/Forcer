@@ -15,10 +15,6 @@ First of all , You should install the requirements through pip3
 pip3 install -r requirements.txt
 ```
 
-After that , Give it the permission for execution by the following command
-```
-chmod +x Forcer.py
-```
 Then Finally , Fire up the Forcer by the command 
 ```
 python3 Forcer.py 
