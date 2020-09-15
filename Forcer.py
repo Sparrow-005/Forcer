@@ -119,7 +119,7 @@ if __name__ == '__main__':
         print('[!] Please use Python version of 3')
         exit()
 
-    arguments = args()
+    argument = args()
     print(Fore.YELLOW +  "      ______    _____    _____     ____   _____   _____          ")
     print(               "     |  ____|  /     \  |  _  |   / ___| | ____| |  _  |          ")
     print(               "     |  |__   ||  _  || |    _|  | |     | |___  |    _|          " )
@@ -136,6 +136,6 @@ if __name__ == '__main__':
     default_passlist_path = 'pass.txt'
     passlist_path = input("\x1b[1m"+ Fore.CYAN + "Please Enter the path to Password list [Enter for Default]:\n" + Fore.WHITE + "=" + Fore.YELLOW + ">\t") or default_passlist_path
     print(Fore.RESET)
-    mode = arguments.viruses
-    is_color = True if not arguments.color else False
-    Engine(username, modes[mode], passlist_path, is_color).start()
+    viruses = argument.viruses
+    is_color = True if not argument.color else False
+    Engine(username, modes[viruses], passlist_path, is_color).start()
