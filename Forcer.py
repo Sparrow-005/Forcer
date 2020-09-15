@@ -112,7 +112,7 @@ def args():
   
     args.add_argument('-nc','--no-color', dest='color',
                       action='store_true', help='disable colors (not applicable for banner and input)')
-    args.add_argument('-v', '--viruses', default=1, type=valid_int,
+    args.add_argument('-v', '--viruses', default=2, type=valid_int,
                       help='viruses: 0 => 32 threads; 1 => 16 threads; 2 => 8 threads; 3 => 4 threads [default = 1]')
     return args.parse_args()
 
