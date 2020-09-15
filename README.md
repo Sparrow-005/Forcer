@@ -1,14 +1,14 @@
-#Forcer
+**Forcer**
 
 Forcer is an advanced and most secured Instagram Brute Forcer and also the easiest....
 It is completely Open-source and free to use ..
 
-#Disclaimer
+**Disclaimer
 
 The tool is truly for Educational purpose and Developers assume no liability and are not responsible for any misuse or damage caused by this program
 BruteForcing accounts you don't own is totally illegal.  
 
-#Usage and Installation
+**Usage and Installation
 
 First of all , You should install the requirements through pip3
 ``` 
@@ -29,7 +29,7 @@ You can enter the username and simply give enter for default password list
 
 You could add arguments if needed , Fortunately , You may not need it
 
-#Banner
+**Banner
 
 ```
       ______    _____    _____     ____   _____   _____      
@@ -53,17 +53,17 @@ Good Luck for Success
 ```
 All the information was directly added to banner to create an awareness about this tool
 
-#Advantage
+**Advantage
 
 This tool has a major advantage which is proxies and anyone using it can leave the worries about tracking 
 The proxy changes your ip thus changing your location
 Feel free to use our tool
 
-#Disadvantage
+**Disadvantage
 
 This tool takes a lot of time to detect the password because of Multiple attempts
 
-#Help
+**Help
 
 ```
 $ python3 Forcer.py -h
@@ -76,7 +76,7 @@ optional arguments:
                         viruses: 0 => 32 threads; 1 => 16 threads; 2 => 8 threads; 3 => 4 threads [default = 1]
 ```
 
-#Viruses
+**Viruses
 ```
 -v 0 => 32 threads [512 password at a time]
 -v 1 => 16 threads [256 passwords at a time]
@@ -84,10 +84,10 @@ optional arguments:
 -v 3 => 4 threads [64 passwords at a time]
 ```
 
-#Developers
+**Developers
 Sparrow005 & MrUnstoppable
 
-#Support Us
+**Support Us
 
 ```
 BitCoin Wallet : bc1qvurx2r98r6mg6vrlgv3l300lkt9g4ujel6gvnu
@@ -96,7 +96,8 @@ Your support is Welcomed...
 
 
 
-#ThankYou
+**ThankYou
+
 Thank you for using our tool and wish you for a Success!!! ...:)
 
 
