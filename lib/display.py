@@ -149,7 +149,7 @@ class Display(object):
         self.clear()
 
         if self.__is_color:
-            return input('{0}[{1}?{0}] {2}{3}{2}[{0}y{2}/{0}n{2}]:~{4}'.format(
+            return input('{0}[{1}?{0}] {2}{3}{4}'.format(
                 Fore.YELLOW, Fore.CYAN, Fore.RED, data, Fore.RESET
             ))
         else:
