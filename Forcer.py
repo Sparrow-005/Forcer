@@ -91,15 +91,15 @@ class Engine(object):
 
 def valid_int(n):
     if not n.isdigit():
-        raise ArgumentTypeError('mode must be a number')
+        raise ArgumentTypeError('viruses must be a number')
 
     n = int(n)
 
     if n > 3:
-        raise ArgumentTypeError('maximum for a mode is 3')
+        raise ArgumentTypeError('maximum  viruses is 3')
 
     if n < 0:
-        raise ArgumentTypeError('minimum for a mode is 0')
+        raise ArgumentTypeError('minimum viruses  is 0')
 
     return n
 
