@@ -8,7 +8,7 @@ from argparse import ArgumentParser, ArgumentTypeError
 from colorama import Fore
 
 
-class Engine(object):
+class Forcer(object):
 
     def __init__(self, username, threads, passlist_path, is_color):
         self.bruter = None
@@ -138,4 +138,4 @@ if __name__ == '__main__':
     print(Fore.RESET)
     viruses = argument.viruses
     is_color = True if not argument.color else False
-    Engine(username, modes[viruses], passlist_path, is_color).start()
+    Forcer(username, modes[viruses], passlist_path, is_color).start()
