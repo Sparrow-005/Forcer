@@ -116,7 +116,7 @@ def args():
 if __name__ == '__main__':
 
     if int(python_version()[0]) < 3:
-        print('[!] Please use Python version of 3')
+        print('[!] Please use Python version of more than 3')
         exit()
 
     argument = args()
