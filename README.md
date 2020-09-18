@@ -95,7 +95,7 @@ Your support is Welcomed...
 
 # ThankYou
 
-Thank you for using our tool and wish you for a Success!!! ...:)
+Thank you for using our tool and wish you for a Success!!! ... :)
 
 
 
